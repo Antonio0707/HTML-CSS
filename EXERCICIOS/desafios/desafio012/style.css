@@ -48,6 +48,11 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section > p{
+    padding-bottom: 1em;
+}
+
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -65,11 +70,27 @@ section.normal {
 section.imagem {
     background-color: #252525;
     color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #0000007c;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: #0000008c;
+    background-color: #00000085;
     width: 400px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    text-shadow: 2.5px 2.5px 0px #00000067;
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 footer {
     background-color: #000000;
