@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            background-color: rgb(182, 255, 255);
+            width: 500px;
+            padding: 1px;
+            border-radius: 15px;
+        }
+
+        table{
+            width: 500px;    
+            border-collapse: collapse;
+        }
+
+        td, th{
+            font-weight: bolder;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: ;
+        }
+        
+        td{
+            background-color: wheat;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+
+        tfoot{
+            background-color: gray;
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR,TD,TH    
+    -->
+    <table>
+        <thead>
+            <tr>
+               <th>Estado</th>
+               <th>Populacao</th>    
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <th>0000</th>
+            </tr>
+        </tfoot>
+    </table>            
+</body>
+</html>
