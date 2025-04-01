@@ -11,12 +11,26 @@
 
         table{
             border-collapse: collapse;
+            font-weight: bold;
         }
 
         th, tr, td {
             width: 200px;
             border: 1px solid black;
             padding: 5px;
+        }
+
+        th{
+            font-weight: bolder;
+        }
+        
+        thead > tr > th{
+            background-color: #d1d1d1;
+        }
+
+        .media{
+            background-color: #d1d1d1;
+            text-align: left; 
         }
     </style>
 </head>
@@ -44,11 +58,9 @@
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td>0.0</td>
             </tr>
             <tr>
                 <td>Fisica</td>
-                <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -58,14 +70,33 @@
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td>0.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Media de Exatas</th>
+                <td class="media">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
                 <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Media de humanas</th>
+                <td class="media">0.0</td>
             </tr>
         </tbody>
     </table>
