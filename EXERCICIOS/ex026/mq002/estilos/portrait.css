@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* This device will be displayed in portrait orientation */
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
