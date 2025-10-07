@@ -45,22 +45,25 @@ menu > ul > li > a {
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(92, 92, 92);
+    background-color: #5c5c5c;
     padding: 10px;
     color: wheat;
-    border-top: 2px solid black;
+    border-top: 2px solid #000000;
 }
 
 menu > ul > li > a:hover {
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 
 main {
-    background-color: white;
-    margin-top: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin: 30px;
     padding: 10px;
     border-radius: 10px;
 }
+
 
 article > h2 {
     padding-bottom: 20px;
