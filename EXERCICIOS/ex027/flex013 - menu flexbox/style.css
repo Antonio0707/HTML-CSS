@@ -29,13 +29,14 @@ header
 
 header > h1
 {
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   flex: 0 0 200px;
+  text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.432);
 }
 
 header > nav
 {
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   display: flex;
   flex-flow: row wrap ;
   justify-content: flex-end;
